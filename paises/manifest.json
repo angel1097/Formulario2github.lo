@@ -1,0 +1,23 @@
+{
+  "name": "Formulario Dirección PWA",
+  "short_name": "Dirección PWA",
+  "description": "Una aplicación para llenar formularios de dirección de manera interactiva.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "icono.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": "/",
+  "serviceworker": {
+    "src": "/server-worker.js",
+    "scope": "/"
+  },
+  "permissions": [],
+  "version": "1.0"
+}
